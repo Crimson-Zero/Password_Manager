@@ -1,6 +1,6 @@
 from tkinter import *   #import the classes not modules
 from tkinter import messagebox
-LOGO_IMG = "C:/Users/wajee/.spyder-py3/password-manager-start/logo.png"
+LOGO_IMG = "Absolute or relative path of the image file" 
 import random
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
@@ -91,7 +91,7 @@ Email_Entry.grid(row=2,column=1,columnspan = 2)
 
 #populating a static value
 
-Email_Entry.insert(0,"wajeehrehman30@gmail.com")  #insert at the begining first character END to add after the text
+Email_Entry.insert(0,"test@hotmail.com")  #insert at the begining first character END to add after the text
 
 password_Entry = Entry(width =52)
 password_Entry.grid(row=3,column=1,columnspan = 2)
