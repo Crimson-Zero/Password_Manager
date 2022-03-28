@@ -1,6 +1,6 @@
 from tkinter import *   #import the classes not modules
 from tkinter import messagebox
-LOGO_IMG = "C:/Users/wajee/.spyder-py3/password-manager-start/logo.png"
+LOGO_IMG = "path for logo image absolute or relative path"
 import random
 import json
 
